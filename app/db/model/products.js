@@ -20,9 +20,12 @@ const Products = new EntitySchema({
         },
         codigo:{
             type:'varchar',
-            nullable:false
+            nullable:false,
+            unique:true
         }
     }
 })
 
-export default Products;
+export {
+    Products
+};

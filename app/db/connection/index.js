@@ -1,4 +1,4 @@
-import repoProducts from "../connection/database";
+import repoProducts from "../connection/database.js";
 
 export {
     repoProducts
